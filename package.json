@@ -1,0 +1,23 @@
+{
+  "name": "medicore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify -t babelify app.js -o bundle.js",
+    "build": "browserify -t babelify app.js -o bundle.js",
+    "start": "npm run watch & nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "deku": "^2.0.0-rc16",
+    "express": "^4.14.0",
+    "firebase": "^3.6.3",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.2",
+    "material-design-lite": "^1.2.1",
+    "rxjs": "^5.0.0-rc.5"
+  }
+}

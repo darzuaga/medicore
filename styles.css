@@ -1,0 +1,63 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.dialog_title {
+    text-align: center;
+}
+
+#add_new_org_btn, #add_new_video_btn {
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+.view_video_btn {
+    margin: 0px !important;
+    margin-right: 10px !important;
+    padding: 0px !important;
+    width: 80px !important;
+    background-color: #FFC10D !important;
+}
+
+.delete_org_btn {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 80px !important;
+    background-color: #F44235 !important;
+}
+
+.org_name_link {
+    text-decoration: none;
+}
+
+#video_dialog {
+    min-width: 500px;
+    max-height: 720px;
+    top: 50px;
+}
+
+.demo-card-wide.mdl-card {
+    margin-top: 50px;
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #000;
+  height: 75px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.new_user_textfield_container {
+    margin-top: -30px;
+}
+
+.new_user_text_field {
+    width: 100%;
+
+}
+
+.new_user_text_field input {
+    font-weight: bold;
+}
